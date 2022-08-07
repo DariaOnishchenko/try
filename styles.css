@@ -1,0 +1,136 @@
+.shapka {
+    background-image: url('bcdiv.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 200px;
+  }
+
+.caption
+{
+    text-align: center;
+    font-size: large;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+h1
+  {
+    text-shadow:3px 1px #9B958E;
+    color: #FFF8E9;
+    font-family: Georgia, serif;
+  }
+
+h2
+{
+  text-shadow:3px 1px #89B6DC;
+  color: #9B958E;
+  font-family: Georgia, serif;
+  }
+
+body
+  {
+    background-color: #FFF8E9;
+  }
+
+.white
+{
+    color: #FFF8E9;
+    text-shadow:3px 1px #9B958E;
+}
+
+.blue
+{
+  color: #89B6DC;
+}
+
+.white_no_shadow{
+  color: #FFF8E9
+}
+
+.block {
+  display:block;
+  float: left;
+  width: 20%;
+  height: 300px;
+  background: #89b6dc;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 300px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  display: block;
+  background-color: #333333;
+  width: 100%;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.block1 {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 300px;
+  background-image: url('bccover.png');
+  padding: 20px;
+}
+
+.ghost {
+  opacity: 0.0;
+}
+
+.K1 {
+  text-align: center;
+}
+
+a[href="library.html"] {
+
+  text-decoration:none;
+}
+
+.quote {
+  background-color : #9B958E;
+  color: #FDF4E5;
+  font-family: Georgia, serif;
+}
+
+
+/*.dropdown-menu {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.dropdown-item {
+  text-align: center;
+  margin: 1% auto;
+}
+
+/*figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+/*.l_square {
+  display: block;
+  height: 100%;
+  width: 20%;
+  float: left;
+  color: #000000;
+  opacity: 0.33;
+}
